@@ -2,5 +2,4 @@
 
 Udacity DataScience Nano degree Course
 
- PostgreSQL
- Python pandas
+ PostgreSQL, Python, pandas
