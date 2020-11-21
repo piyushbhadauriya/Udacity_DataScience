@@ -42,6 +42,7 @@ SELECT COUNT(*),
 FROM film f
 GROUP BY 2
 ORDER BY 1
+
 /*
 SELECT    DISTINCT(filmlen_groups),
           COUNT(title) OVER (PARTITION BY filmlen_groups) AS filmcount_bylencat
