@@ -197,3 +197,15 @@ SELECT account_id,
    AND o2.occurred_at > o1.occurred_at
    AND o2.occurred_at <= o1.occurred_at + INTERVAL '28 days'
  ORDER BY o1.account_id, o1.occurred_at
+
+-- SELF JOIN
+/* same table different alias */
+-- UNION
+/* append similer data from different SELECT statement. No duplicates */
+
+/*
+ Here are sql practice recommendations:
+ HackerRank https://www.hackerrank.com/domains/sql and
+ ModeAnalytics https://community.modeanalytics.com/sql/tutorial/sql-business-analytics-training/
+ The skill test by AnalyticsVidhya https://www.analyticsvidhya.com/blog/2017/01/46-questions-on-sql-to-test-a-data-science-professional-skilltest-solution/
+ is a fun test to take too.
